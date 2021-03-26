@@ -1,0 +1,22 @@
+Algoritmo "Login do Sistema"
+
+Var
+tentativa, senha : caractere
+
+Inicio
+
+senha<- "Admin"
+tentativa<- "Admin"
+
+repita
+
+escreva("Digite a senha: ")
+
+leia(tentativa)
+
+ate  (tentativa = senha)
+
+escreva("Entrou no sistema")
+
+
+Fimalgoritmo

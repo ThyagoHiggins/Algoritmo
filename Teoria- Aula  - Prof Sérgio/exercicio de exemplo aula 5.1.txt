@@ -1,0 +1,51 @@
+Algoritmo "Notas"
+
+Var
+
+real notas[24],media
+inteiro x
+
+
+inicio
+
+	para x de 0 até 23 passo 1 faca
+	leia(notas[x])
+	fimpara
+         
+	para x de 0 até 23 passo 1 faca
+	media <- media+notas[x]
+	fimpara
+
+        escreva(media/24)
+
+fimalgoritmo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Algoritmo " Janelas no onibus"
+
+Var
+ inteiro x, janela[24]
+ 
+
+inicio 
+
+para x de 0 até 23 passo 1 faca
+leia(janela [x])
+fimpara
+
+fimalgoritmo

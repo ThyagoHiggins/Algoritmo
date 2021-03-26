@@ -1,0 +1,44 @@
+	Algoritmo " Divisão"
+
+Var
+
+	inteiro a,b,resultado
+
+Inicio
+
+	escreva ("escreva um numero: ")
+	leia (a)
+
+	escreva ("escreva outro numero: ")
+	leia (b)
+
+	resultado <- a/b
+	
+	
+	se ( n2=0) entao
+	
+		escreva(" Número invalido")
+	
+		senao 
+ 	
+		escreva ("sua divisao é: ", resultado)
+		
+fimse
+
+finalalgoritmo
+	
+
+
+
+
+
+
+
+
+
+
+
+
+\\ Escreva um algoritmo que leia dois números inteiros a e b e calcule e mostre na 
+\\tela o resultado da divisão de a por b, se for possível. (obs: divisão por 0 não é 
+\\possível)

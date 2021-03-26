@@ -1,0 +1,44 @@
+Algoritmo "semnome"
+
+Var
+m : vetor [1..4, 1..4] de inteiro
+l,c,sDP,pl2,maiorc : inteiro
+
+Inicio
+ sDP <- 0
+ pl2 <- 1
+ para l <- 1 ate 4 faca
+      para c <-1 ate 4 faca
+      escreva ("Digite o valor da Posição [",l,",",c,"]: ")
+      leia(m[l,c])
+                   se(l=c)então
+                    sDP <- sDP+ m[l,c]
+                    fimse
+                    
+                    
+      fimpara
+  fimpara
+
+  para l <- 1 ate 4 faca
+      para c <-1 ate 4 faca
+      escreva (m[l,c]:4)
+      fimpara
+      escreva()
+  fimpara
+  
+  para c <-1 ate 4 faca
+  pl2 <- pl2*m[2,c]
+  fimpara
+
+
+  para l <- 1 ate 4 faca
+  se (m[l,3]>maiorc) entao
+  maiorc <- m[l,3]
+  fimse
+  fimpara
+
+    escreval ("A Soma da Diagonal Principal é: ", sDP)
+    escreval ("O produto da linha 2 é : ", pl2)
+    escreval(" O maior valor da coluna 3 é : ",maiorc)
+
+Fimalgoritmo

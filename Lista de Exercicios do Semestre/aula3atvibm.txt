@@ -1,0 +1,26 @@
+algoritmo "ibm salario"
+var
+	caracter cargo
+	real salario
+
+inicio
+	escreva("qual o cargo: ")
+	leia (cargo)
+
+	escreva("qual o salario: ")
+	leia(salario)
+
+	se(cargo="grente") então
+	   salario <- salario * 1.20
+	senão se(cargo="tecnico") então
+	   salario <- salario * 1.10
+	senão
+	   salario <- salario * 1.05
+	 fimse
+	fimse
+	
+	escreva("o salario sera: ", salario)
+
+fimalgoritmo
+	
+	

@@ -1,0 +1,35 @@
+Algoritmo "Escola Santa Paciencia"
+//  
+//  
+
+Var
+   Nalunos, cont: inteiro
+   nota:real
+   nome:caracter
+   
+   
+Inicio
+
+     escreval ("-----------------------")
+     escreval (" ESCOLA SANTA PACIENCIA")
+     escreval ("-----------------------")
+     
+     escreval ("Quantos Alunos tem a turma? ")
+     leia(Nalunos)
+
+     cont <- 1
+     enquanto (cont <= Nalunos)faca
+     escreval ("Aluno",cont)
+     escreva ( "Nome do Aluno:")
+     leia(nome)
+     escreva ("Digita a nota:")
+     leia(nota)
+     
+     fimenquanto
+
+     
+     
+
+
+
+Fimalgoritmo

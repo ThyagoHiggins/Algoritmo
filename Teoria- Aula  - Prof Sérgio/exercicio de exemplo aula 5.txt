@@ -1,0 +1,17 @@
+Algoritmo " Janelas no onibus"
+
+Var
+ inteiro x, janela[24]
+ 
+
+inicio 
+
+para x de 0 até 23 passo 1 faca
+leia(janela [x])
+fimpara
+
+fimalgoritmo
+
+
+
+	

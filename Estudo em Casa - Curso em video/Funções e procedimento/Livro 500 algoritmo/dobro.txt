@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+
+funcao dobro(x: inteiro): inteiro
+Var
+resultado:inteiro
+inicio
+
+resultado <- x*2
+retorne(resultado)
+fimfuncao
+
+Var
+
+a,c : inteiro
+
+Inicio
+
+para c <- 1 ate 3 faca
+
+escreval ("Digite numero:  ")
+leia(a)
+escreval("O dobro é:  ",dobro(a) )
+
+fimpara
+
+
+Fimalgoritmo
+

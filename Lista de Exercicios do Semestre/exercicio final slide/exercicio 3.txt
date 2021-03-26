@@ -1,0 +1,39 @@
+Algoritmo "Números impares"
+
+Var
+
+   num :inteiro
+   
+Inicio
+
+      para num de 505 ate 1000 passo 5  faca
+      escreva(num)
+      fimpara
+
+
+       
+
+       
+fimalgoritmo
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      

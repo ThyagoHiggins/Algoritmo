@@ -1,0 +1,28 @@
+Algoritmo " Doação de de Sangue"
+
+Var
+	real: peso, idade
+
+
+Inicio
+
+	escreva ("Informe seu peso:")
+	leia(peso)
+
+	escreva ("Informe sua idade:")
+	leia(idade)
+
+		se ((idade >= 18) e (idade <= 45) e (peso>=50)) então
+
+		escreva("Você pode ser doador (a)")
+	
+		senão 
+ 	
+		escreva ("Você não pode ser doador")
+
+
+	fimse
+
+finalalgoritmo
+
+

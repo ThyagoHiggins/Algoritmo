@@ -1,0 +1,30 @@
+Algoritmo "Média"
+
+Var
+
+n1,n2,n3: inteiro
+media,m: real
+
+funcao media(x,y,z: real): real
+inicio
+retorne (x+y+z)/3
+fimfuncao
+
+Inicio
+
+escreval ("Digite nota 1: ")
+leia(n1)
+
+escreval ("Digite nota 2: ")
+leia(n2)
+
+escreval ("Digite nota 3: ")
+leia(n3)
+m <- media(n1,n2,n3)
+escreval("Média Aritmética é: ",m:2:1)
+
+
+
+
+
+Fimalgoritmo

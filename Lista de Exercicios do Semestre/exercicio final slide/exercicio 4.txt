@@ -1,0 +1,15 @@
+﻿Algoritmo " Contagem até o número digitado"
+
+Var
+	num, contagem : inteiro 
+	
+Inicio 
+
+	escreva ("Insira um número")
+	leia (num)
+	
+		para contagem de 1 ate num passo 1 faca
+		escreva (contagem)
+		fimpara
+	
+fimalgoritmo

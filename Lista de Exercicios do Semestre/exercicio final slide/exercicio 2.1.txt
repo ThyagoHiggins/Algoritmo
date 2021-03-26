@@ -1,0 +1,39 @@
+Algoritmo "Números impares"
+
+Var
+
+   num :inteiro
+   
+Inicio
+
+      para num de 11 ate 100 passo 2  faca
+      escreva(num)
+      fimpara
+
+
+       
+
+       
+fimalgoritmo
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      

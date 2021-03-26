@@ -1,0 +1,22 @@
+Algoritmo "soma numeros"
+
+	Var
+	
+	inteiro num,soma
+	
+	num <- 1
+	soma <-0
+
+	enquanto (num > 0) faca
+		leia (num)
+			se (num>0) então
+			soma <- soma + num 
+			fimse
+	
+	
+	
+	fimenquanto
+	
+	Inicio 
+	
+	

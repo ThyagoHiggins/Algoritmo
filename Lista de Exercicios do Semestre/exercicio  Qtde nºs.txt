@@ -1,0 +1,23 @@
+Algoritmo " Quantos numeros fornecidos
+
+Var
+	inteiro n1, soma
+	
+Inicio
+
+	escreva (" Escreva um número: ") 
+	leia (n1)
+	soma<-0
+	
+	enquanto ( n1>0) faca
+	soma<-soma+num
+	leia(n1)	
+		escreva (" Seu numero é positivo: ",n1)
+		
+	fimenquanto
+	se (n1<0) então 
+		escreva ("O numero é negativo não pode ser usado");
+	fimse	 
+		
+		
+fimalgoritmo

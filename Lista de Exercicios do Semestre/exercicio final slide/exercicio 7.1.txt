@@ -1,0 +1,14 @@
+Algoritmo 
+
+Var
+  i, j:inteiro,
+
+Inicio
+
+ para i de1 ate 20 passo 1 faca
+ escreval ("Tabuada do ", i)
+ para j de 1 ate 10 passo 1 faca
+ Escreval (j*i)
+fimpara
+
+fimalgoritmo

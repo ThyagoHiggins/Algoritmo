@@ -1,0 +1,43 @@
+Algoritmo " Idades"
+
+Var
+
+   idade, qtde:inteiro
+   
+Inicio
+
+      escreva("Digita uma idade: ")
+      leia(idade)
+      qtde<-0
+      repita
+       leia (idade)
+       qtde <- qtde+1
+       
+       ate( idade>= 18)
+       
+       escreva ("quantidade de idades lidas:", qtde)
+       
+fimalgoritmo
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      

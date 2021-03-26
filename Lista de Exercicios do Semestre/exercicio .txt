@@ -1,0 +1,28 @@
+Algoritmo "Loja"
+
+Var
+real: preço, quantidade, valor, valord
+caractere:nomeproduto
+Inicio
+
+    escreva ("Qual o produto? ")
+    leia(produto)
+
+    escreva ("Qual o preço? ")
+    leia(preço)
+
+    escreva ("Qual a quantidade? ")
+    leia (preço)
+
+    se (quantidade<=10) então
+    
+    valor<-preço*quantidade)
+
+    senão (quantidade>10) então
+    valord <-preço*quantidade*0,9
+fimse
+ 	escreva("produto: ", nomeProduto)
+        escreva("valor total: ", valortotal)
+
+fimalgoritmo.
+    

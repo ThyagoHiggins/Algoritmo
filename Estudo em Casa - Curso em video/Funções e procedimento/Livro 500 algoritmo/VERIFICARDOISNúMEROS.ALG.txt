@@ -1,0 +1,32 @@
+Algoritmo "Verificardoisnúmeros"
+
+Var
+num1, num2: inteiro
+
+
+procedimento verifica ( x,y : inteiro)
+inicio
+se(x = y) entao
+     escreval("Os números são iguais")
+senao
+     se (x < Y) entao
+      escreval("O número ",y, "é o maior")
+     senao
+      escreval("O número ",x," é o maior")
+     fimse
+fimse
+
+fimprocedimento
+
+
+Inicio
+
+escreval ("Digite o 1º número:  ")
+leia(num1)
+
+escreval("Digite o 2º número:  ")
+leia(num2)
+verifica(num1,num2)
+
+
+Fimalgoritmo

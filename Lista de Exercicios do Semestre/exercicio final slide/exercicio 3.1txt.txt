@@ -1,0 +1,38 @@
+Algoritmo "Números divisores por 5"
+
+Var
+
+   num :inteiro
+   
+Inicio
+
+      para num de 501 ate 1001 passo 1  faca
+		se (num%5=0) então      
+      		escreva(num)
+		fimse      	
+	fimpara
+   
+      
+fimalgoritmo
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      

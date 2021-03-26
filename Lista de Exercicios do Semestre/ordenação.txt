@@ -1,0 +1,116 @@
+
+   procedimento mostraMatriz(inteiro matriz[2][2])
+   var
+     inteiro i, j
+   
+   inicio
+     
+     para (i<-0 até 1 passo 1) faça
+        para (j <-0 até 1 passo 1) faça
+           escreva(matriz[i][j])
+        fimpara
+     fimpara
+   fimprocedimento
+
+
+Algoritmo "Matriz"
+var
+  inteiro sorteio[2][2]={{2,4},{3,6}}
+inicio
+
+  mostraMatriz(sorteio)
+
+fimAlgoritmo
+
+
+inteiro vetor[10]={2,3,6,1,7,8,9,0,5,4} {0,1,2,3,4,5,6,7,8,9}
+
+    para i <- 0 até 9 passo 1 faca
+       para j <- 9 até i passo -1 faça
+           se(vetor[i] > vetor[j]) entao
+               aux <- vetor[j]
+               vetor[j] <- vetor[i]
+               vetor[i] <- aux
+           fimse
+      fimpara
+   fimpara
+
+
+
+procedimento ordenaVetor(inteiro v[], inteiro t)
+var
+  inteiro i, j, aux  
+inicio
+   para i <- 0 até t-1 passo 1 faca
+       para j <- t-1 até i passo -1 faça
+           se(v[i] > v[j]) entao
+               aux <- v[j]
+               v[j] <- v[i]
+               v[i] <- aux
+           fimse
+      fimpara
+   fimpara
+fimprocedimento
+
+procedimento mostraVetor(inteiro v[], inteiro t, inteiro x)
+var
+  inteiro i, p, inicio, fim  
+inicio
+   se(x=0) entao
+      inicio = 0
+      fim = t-1
+      p = 1
+   senao
+      inicio = t-1
+      fim = 0
+      p = -1
+   fimse 
+   para i <- inicio até fim passo p faca
+       escreva(v[i])
+   fimpara
+fimprocedimento
+
+procedimento leVetor(inteiro v[], inteiro t)
+var
+  inteiro i  
+inicio
+   para i <- 0 até t-1 passo 1 faca
+     escreva("Digite um numero : ")  
+     leia(v[i])
+   fimpara
+fimprocedimento
+
+Algoritmo "Principal"
+var
+ inteiro vetor1[10]={2,3,6,1,7,8,9,0,5,4}
+ inteiro vetor2[20], opcao
+inicio
+ enquanto(1) faca
+   leVetor(vetor2, 20)
+   ordenaVetor(vetor1, 10)
+   ordenaVetor(vetor2, 20)
+   escreva("Escolha 0 para vetor crescente ou 1 para    decresente")
+   leia(opcao)
+   mostraVetor(vetor2,20,opcao)
+   mostraVetor(vetor1,10,opcao)
+ fimenquanto
+fimAlgoritmo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

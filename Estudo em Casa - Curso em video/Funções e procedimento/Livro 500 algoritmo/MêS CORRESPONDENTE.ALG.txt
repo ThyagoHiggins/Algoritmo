@@ -1,0 +1,36 @@
+Algoritmo "Mês Correspondente"
+
+Var
+num1 : inteiro
+
+
+procedimento mestri ( x :  inteiro)
+inicio
+
+
+se(x =1) entao
+     escreval("JANEIRO")
+senao
+     se (x = 2) entao
+      escreval("FEVEREIRO")
+     senao
+           se(x=3) entao
+            escreval("MARÇO")
+            senao
+            escreval ("Não pertecen ao 1º trimestre")
+           fimse
+     fimse
+fimse
+
+fimprocedimento
+
+
+Inicio
+
+escreval ("Digite o número do mês correspondente ao 1º trimestre")
+leia(num1)
+mestri(num1)
+
+
+
+Fimalgoritmo

@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+
+Var
+
+ radiano : real
+angulo, angulo1, res: inteiro
+
+funcao angulo( x : inteiro): inteiro
+inicio
+
+res <- (radiano*180)/ pi
+retorne (res)
+fimfuncao
+
+Inicio
+
+escreval ("Escreva o número em radianos:  ")
+leia(radiano)
+angulo1 <- angulo(radiano)
+
+escreval ("O angulo é: ", angulo1:2:0)
+
+Fimalgoritmo

@@ -1,0 +1,39 @@
+Algoritmo "Números pares"
+
+Var
+
+   num :inteiro
+   
+Inicio
+
+      para num de 10 ate 100 passo 2 faca
+      escreva(num+1)
+      fimpara
+
+
+       
+
+       
+fimalgoritmo
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      

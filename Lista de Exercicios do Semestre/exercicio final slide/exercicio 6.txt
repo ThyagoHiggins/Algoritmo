@@ -1,0 +1,22 @@
+﻿Algoritmo "Soma de 10 numeros"
+
+Var
+
+ n,i,s: inteiro
+ media: real 
+
+Inicio
+
+ 	s<-0
+        
+	para i de 0 ate 19 passo 1 faca
+	leia(n)
+        
+	s<- n+s
+	
+	fimpara
+
+	media<- s/20
+
+	escraval(media)
+Fimalgoritmo

@@ -1,0 +1,35 @@
+Algoritmo "Logaritm0"
+
+Var
+lo, base, i : inteiro
+resp : real
+
+procedimento logaritmo (x,y : real)
+inicio
+ resp <- log(x) / log(y)
+ escreval ("Logaritmando: ",resp)
+fimprocedimento
+
+Inicio
+
+para i <- 1 ate 3 faca
+     escreval("digite logaritmando maior do que 0: ")
+     leia(lo)
+     enquanto ( lo <= 0) faca
+              escreval("Invalido. Digite logaritmando maior do que 0:")
+              leia(lo)
+     fimenquanto
+
+     escreval("digite a base: ")
+     leia(base)
+     enquanto (( base < 0) ou (base = 1)) faca
+              escreval("Invalido. Digite base maior que 0 e diferente de 1: ")
+              leia(base)
+     fimenquanto
+
+     logaritmo (lo,base)
+fimpara
+
+
+
+Fimalgoritmo

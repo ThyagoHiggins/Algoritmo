@@ -1,0 +1,26 @@
+	
+		Algortimo "numero maior"
+
+var
+	
+	real: n1, n2
+
+Inicio
+
+	Escreva ("escreva o primeiro nº escolhido: ")
+	leia (n1)
+
+
+	Escreva ("escreva o segundo nº escolhido: ")
+	leia (n2)
+
+	se (n1>n2) então
+        
+		escreva ("O número maior é: ", n1)
+	senão 
+    		escreva ("O número maior é: ", n2)
+	
+	fimse 
+
+
+finalgoritmo  
